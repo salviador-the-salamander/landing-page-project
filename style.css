@@ -1,0 +1,263 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    padding: 1% 15% 5%;
+}
+
+#header-logo {
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    align-self: center;
+    margin-right: auto;
+}
+
+#logo,
+#home,
+#about,
+#funny-video {
+    display: flex;
+}
+
+#header-links {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-left: auto;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 45px;
+}
+
+
+#banner-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 1;
+    padding: 0 15%;
+    background-color: #1f2937;
+
+}
+
+#banner-one-left {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-one-right {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 1;
+    flex-grow: 1;
+
+}
+
+#banner-one-header {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+#banner-one-text {
+    display: flex;
+    size: 18px;
+    color: #e5e7eb;
+    margin: 5% 0;
+}
+
+#cat-logo {
+    display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 0 5% 25%;
+
+}
+
+#banner-one-signup {
+    margin: 5% 0;
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: auto;
+    text-decoration: none;
+    border: 0;
+    padding: 3% 5%;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+}
+
+#banner-one-signup:hover {
+    background-color: white;
+    color: black;
+}
+
+#banner-two {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 4% 0;
+}
+
+#banner-three {
+    display: flex;
+    margin: 0 12%;
+}
+
+#col-one,
+#col-two,
+#col-three,
+#col-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin: 0 5%;
+    height: 50%;
+    
+}
+
+
+#col-1-img,
+#col-3-img,
+#col-4-img {
+    display: flex;  
+    flex: 1;
+    border-radius: 30px;
+    width: 100%;
+    height: 50%;
+
+
+}
+
+#col-2-img {
+    display: flex;
+    flex: 1;
+    width: 100%;
+
+}
+
+#col-1-img:hover,
+#col-2-img:hover,
+#col-3-img:hover,
+#col-4-img:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+
+}
+
+#img-one-text,
+#img-two-text,
+#img-three-text,
+#img-four-text {
+    display: flex;
+    margin: 8% auto;
+    color: #1f2937;
+    font-size: 20px;
+    font-weight:bold;
+    align-self: flex-end;
+    
+ 
+
+}
+
+#banner-four {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 10% 25%;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    align-self: center;
+}
+
+#quote-author {
+    font-style: italic;
+    font-size: 20px;
+    font-weight:bolder;
+    color: #1f2937;
+    align-self: flex-end;
+
+}
+
+#cta-banner {
+    display: flex;
+    flex: 1;
+    
+    background-color: #3882f6;
+    align-self: center;
+    margin: 3%;
+    border-radius: 30px;
+    padding: 2%;
+}
+
+#call-to-action-banner-left,
+#call-to-action-banner-right {
+    display: flex;
+    flex: 1;
+}
+
+#call-to-action-banner-left {
+    flex-direction: column;
+
+}
+
+#call-to-action-banner-right {
+    justify-content: center;
+}
+
+#cta-header {
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+#cta-text {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#cta-sign-up {
+    background-color: #3882f6;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+}
+
+#footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: center;
+    padding: 3% 0;
+}
+
+#footer-txt {
+
+}
